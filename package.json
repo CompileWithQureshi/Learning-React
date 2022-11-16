@@ -1,5 +1,5 @@
 {
-  "homepage": "http://CompileWithQureshi.github.io/Learning-React",
+  "homepage": "http://CompileWithQureshi.github.io/react-app",
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
@@ -11,13 +11,13 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages  build",
+    "deploy": "gh-pages  -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
